@@ -1,1 +1,8 @@
 /*styles for both Anni Albers layouts*/
+/*layout the first index.html file by default*/
+main{
+
+width: 80%;
+max-width: 1100px;
+margin:0 auto;
+}
