@@ -63,6 +63,12 @@ body#secondLayout main {
 #secondLayout #para2 { grid-area: p2;}
 #secondLayout #para3 { grid-area: p3;}
 #secondLayout #para4 { grid-area: p4;}
+#secondLayout #para5 { grid-area: p4;}
+#secondLayout #para6 { grid-area: p4;}
+#secondLayout #para7 { grid-area: p4;}
+#secondLayout #para8 { grid-area: p4;}
+#secondLayout #para9 { grid-area: p4;}
+#secondLayout #para10 { grid-area: p4;}
 #secondLayout #callout1 { grid-area: c1;}
 
 /* override the baseline p styles from above*/
