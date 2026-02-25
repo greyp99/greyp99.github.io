@@ -42,16 +42,14 @@
     <h3>1. max-width</h3>
     Max-width applies style when the screen is less than or equal to a specified value. It's commonly used to design layouts for smaller screens, especially mobile phones.
 
-    <p>Absolute units have a fixed size and don't change based on screen size or surrounding elements.</p>
-    <p>They are often based on real-world measurements and fixed pixel values.</p>
-    <p>Absolute units are not usually for responsive design due to varying screen sizes.</p>
-    <h3>Relative Units</h3>
-    <p>Relative units are solved based on other values, from element to root font sizes, or even viewports.</p>
-    <p>These units adapt well to different screen sizes and user settings, making them ideal for responsive web design.
-    </p>
-    <hr>
-    <h2>px and pt</h2>
-    <h3>px(pixels)</h3>
+     <ul>
+        @media (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+    </ul>
+    <textarea cols="40" rows="7">
 
     <p>The px represents a pixel on your screen, and is one of the most common CSS units used, providing accurate
         spacing and layout.</p>
