@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Media Queries</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		textarea {
+			border: none;
+			padding: 5px;
+			background-color: lightgrey;
+		}
+	</style>
+
+	<!-- external and internal JavaScript -->
+	<script src="scripts.js" defer></script>
+	<script>
+		// in-page JavaScript here
+	</script>
+
+</head>
+
+<body>
+	<h1>Code Log 3: CSS Media Queries</h1>
+	<p>And now, our third codelog! We'll be talking about media queries and four of it's media features.</p>
+	<h2>Four Common Media Features</h2>
+	<h3>Absolute Units</h3>
+	<p>Absolute units have a fixed size and don't change based on screen size or surrounding elements.</p>
+	<p>They are often based on real-world measurements and fixed pixel values.</p>
+	<p>Absolute units are not usually for responsive design due to varying screen sizes.</p>
+	<h3>Relative Units</h3>
+	<p>Relative units are solved based on other values, from element to root font sizes, or even viewports.</p>
+	<p>These units adapt well to different screen sizes and user settings, making them ideal for responsive web design.
+	</p>
+	<hr>
+	<h2>px and pt</h2>
+	<h3>px(pixels)</h3>
+
+	<p>The px represents a pixel on your screen, and is one of the most common CSS units used, providing accurate
+		spacing and layout.</p>
+	<ul>
+		<li>It doesn't scale with user font settings
+		<li> Helpful for proper spacing and borders
+	</ul>
+	<textarea cols="40" rows="7">
+
+.box {
+width: 200px;
+height: 100px;
+border: 2px lightgrey;
+}
+</textarea>
+	<hr>
+	<h3>pt (points)</h3>
+	<p>The pt unit focuses on print design. One point being 1/72 of an inch.</p>
+	<ul>
+		<li>pt is an absolute unit</li>
+		<li>It's mostly used for print stylesheets</li>
+		<li>Not recommended for screen layouts</li>
+	</ul>
+
+	<textarea cols="40" rows="5">
+
+p{
+  font-size: 12pt;
+}
+
+</textarea>
+	<h2>em and rem</h2>
+	<h3>em</h3>
+	<p>The em unit is relative to the font size of its parent element. Values can compound when elements are set because
+		of this.</p>
+	<ul>
+		<li>em is a relative unit</li>
+		<li>Elements in another element can increase size unexpectedly</li>
+	</ul>
+
+	<textarea cols="40" rows="5">
+
+p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+</textarea>
+<h3>rem</h3>
+<p>The rem unit is a relative to the font size of the root element. It makes it easier for consistent sizing</p>
+<ul><li>rem is a relative unit</li>
+<li>It avoids compounding issues</li>
+</ul>
+
+	<textarea cols="40" rows="7">
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+</textarea>
+<h2>vw and vh</h2>
+<h3>vw (viewpoint width)</h3>
+<p>The vw works on the width of the browser window. One vw would be 1% of the viewport width.</p>
+<ul><li>vw is a relative unit</li>
+<li>Adjusts as the browser resizes</li>
+<li>Helps with responsive layouts</li></ul>
+
+	<textarea cols="40" rows="5">
+
+h1 {
+  font-size: 20vw;
+}
+
+</textarea>
+<h3>vh (viewport height)</h3>
+<p>vh is based on the height of the browser window. One vh is 1% of the viewport height. </p>
+<ul><li>vh is a relative unit</li>
+<li>Mostly used for full-screen sections</li>
+<li>Easily adapts to different screen sizes</li></ul>
+<textarea cols="40" rows="5">
+
+h1 {
+  font-size: 20vh;
+}
+
+</textarea>
+
+<p>Understanding CSS measuring units helps with making flexible and responsive design.</p>
+<p>While absolute units from px to pt help with precision, relative units such as em, rem, vw, and vh allow layouts to adapt to different screens and accessibility settings.</p>
+</body>
+
+</html>
