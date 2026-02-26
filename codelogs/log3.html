@@ -42,8 +42,7 @@
     <h3>1. max-width</h3>
    <p> Max-width applies style when the screen is less than or equal to a specified value. It's commonly used to design layouts for smaller screens, especially mobile phones.</p>
 
-
-    <textarea cols="42" rows="6">
+<textarea cols="42" rows="6">
         @media (max-width: 600px) {
     body {
         background-color: lightblue;
@@ -63,24 +62,24 @@
 
 <h3>3. orientation</h3>
 <p>The orientation feature checks if the device is in portrait or landscape mode. This helps adjust layouts when a user rotates their phone or tablet.</p>
-</textarea>
+<textarea cols="40" rows="5">
     @media (orientation: landscape) {
     body {
         background-color: lightgrey;
     }
 }
-    <textarea cols="40" rows="5">
+</textarea>
 
    <h3>4. prefers-color-scheme</h3>     
 <p>The prefer-color-scheme checks whether the user has chosen a light or dark theme in their device. This allows developers to automatically switch between light mode and dark mode styles.</p>
-</textarea>
+<textarea cols="42" rows="6">
     @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
         color: white;
     }
 }
-    <textarea cols="42" rows="6">
+</textarea>
 
 <p>Media queries make modern responsive design possible. Using features like max-width, min-width, orientation, and prefers-color-scheme, developers can make flexible layouts that adapt to different devices and what users like.</p>
 </body>
