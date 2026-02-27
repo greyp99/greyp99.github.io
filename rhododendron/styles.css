@@ -1,14 +1,14 @@
 /*mobile-first design for Pacific Rhododendron layout*/
 * {
-box-sizing: border-box
+    box-sizing: border-box
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-header{
+header {
     width: 100vw;
     height: 100vh;
 }
@@ -17,23 +17,40 @@ header{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image:url("Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg");
+    background-image: url("Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg");
     background-size: cover;
     background-position: center center;
 
 }
 
-#rhodieTitle{
-position: absolute;
+#rhodieTitle {
+    position: absolute;
     width: 100vw;
-height: 100vh;
+    height: 100vh;
 }
 
 #rhodieTitle h1 {
-position: absolute;
-bottom: 0;
-left: 0;
-color: white;
-font-size: 2.5em;
-width: calc (100vw-2em);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 2.5em;
+    width: calc (100vw-2em);
+}
+
+@media screen and (orientation: landscape) {
+
+    #rhodiePic {
+        width: 50vw;
+    }
+
+    #rhodieTitle h1 {
+        width: 50vw;
+        left: 50vw;
+        background-color: #333;
+    }
+
+    #rhodieTitle h1 {
+        width: 45vw;
+    }
 }
