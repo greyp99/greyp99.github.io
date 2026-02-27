@@ -1,6 +1,7 @@
 /*mobile-first design for Pacific Rhododendron layout*/
 * {
     box-sizing: border-box
+    font: Arial, sans-serif;
 }
 
 body {
