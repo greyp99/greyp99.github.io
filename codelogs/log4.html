@@ -91,13 +91,23 @@ div {
 <p>This makes a light blue background.</p> 
 <hr>
 <h3>4. RGBA and HSL</h3>
-<p>Hex colors start with a # followed by six digits. The digits represent red, green, and blue values.</p>
+<p>RGBA adds transparency (alpha value from 0 to 1), 0 being completely transparent and 1 not being transparent.</p>
  <textarea cols="43" rows="4">
 p {
-  color: #FF5733;
+  color: rgba(255, 0, 0, 0.5);
 }
     </textarea>
-    <p>#FF5733 is a redish orange.</p>
+    <p>This makes semi-transparent red text.</p>
+   <hr>
+   <p>HSL stands for Hue, Saturation, and Lightness, making it easier to adjust brightness and intensity.</p>
+    <textarea cols="43" rows="4">
+h2 {
+  color: hsl(200, 100%, 50%);
+}
+    </textarea>
+<hr>
+
+
 </body>
 
 </html>
