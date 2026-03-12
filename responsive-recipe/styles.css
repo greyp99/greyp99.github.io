@@ -1,4 +1,4 @@
-/* Mobile layout (default / mobile-first styles) */
+/* Mobile layout */
 
 body {
 margin:0;
@@ -19,7 +19,7 @@ margin-bottom:2em;
 }
 
 
-/* Desktop layout (screens 768px and wider) */
+/* Desktop layout */
 
 @media screen and (min-width: 768px) {
 
