@@ -1,3 +1,5 @@
+/* Mobile layout (default / mobile-first styles) */
+
 body {
 margin:0;
 font-family: Arial, sans-serif;
@@ -15,6 +17,9 @@ padding:1.5em;
 section {
 margin-bottom:2em;
 }
+
+
+/* Desktop layout (screens 768px and wider) */
 
 @media screen and (min-width: 768px) {
 
