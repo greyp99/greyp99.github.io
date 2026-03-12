@@ -19,6 +19,10 @@ height: auto;
 margin: auto;
 }
 
+header p {
+    max-width: 500px;
+    margin: auto;
+}
 main {
 padding: 1.5em;
 }
