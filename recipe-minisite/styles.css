@@ -87,7 +87,7 @@ nav > ul > li > ul {
 }
 
 nav > ul > li.clicked>ul {
-    max-height: 90vh;
+    max-height: 40vh;
 }
 
 nav>  ul > li > ul > li {
