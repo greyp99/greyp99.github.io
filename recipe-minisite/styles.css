@@ -86,11 +86,11 @@ nav > ul > li > ul {
     transition: max-height 0.5s;
 }
 
-nav>ul>li.clicked>ul {
+nav > ul > li.clicked>ul {
     max-height: 90vh;
 }
 
-nav>ul>li>ul>li {
+nav>  ul > li > ul > li {
     padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
@@ -119,33 +119,33 @@ nav > ul > li > ul > li:hover a {
         overflow: visible;
     }
 
-    nav>ul>li {
+    nav > ul > li {
         float: left;
         margin: 0.5rem;
     }
 
-    nav>ul>li a {
+    nav > ul > li a {
         padding-right: 0.5rem;
         margin: 0;
     }
 
-    nav>ul>li>ul {
+    nav > ul > li > ul {
         margin: 0 0.5rem 0.5rem 0;
         visibility: hidden;
         position: absolute;
     }
 
-    nav>ul>li.clicked>ul {
+    nav > ul > li.clicked>ul {
         display: block;
         visibility: visible;
     }
 
-    nav>ul>li>ul li {
+    nav > ul > li > ul li {
         margin: 0;
         white-space: nowrap;
     }
 
-    nav>ul>li>a::after {
+    nav > ul > li > a::after {
         content: "";
     }
 
