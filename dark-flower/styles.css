@@ -109,7 +109,7 @@ body.darkMode h4 {
 }
 
 body.darkMode #toggleDarkMode {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
 }
 }
