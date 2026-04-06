@@ -20,7 +20,7 @@ header {
     height: 100vh;
     background-image: url("Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 
 }
 
@@ -77,50 +77,39 @@ section {
     section {
         margin-bottom: 0;
     }
-
-    * {
-    box-sizing: border-box;
-    /* use border-box model on everything */
-}
-
-#demo {
-    display: flex;
-    flex-direction: row;
-    /* or column, row-reverse, column-reverse */
-    flex-wrap: wrap;
-}
-
-#demo h1 {
-    flex-basis: 100%;
-    order: -1;
-}
-
-#demo p {
-    flex-basis: 20%;
-    padding-right: 1em;
-    margin-top: 0;
-}
-
-#para1 {
-    order: 0;
-}
-
-#para2 {
-    order: 0;
-}
-
+    /* DARK MODE BUTTON */
 #toggleDarkMode {
-    margin-top: 2em;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    padding: 0.5em 1em;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
+/* DARK MODE STYLES */
 body.darkMode {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
 }
 
-body.darkMode h1 {
-    color: red;
-}
+body.darkMode section {
+    background-color: black;
+    padding: 1em;
+    border-radius: 8px;
 }
 
+body.darkMode h1,
+body.darkMode h3,
+body.darkMode h4 {
+    color: white;
+}
 
+body.darkMode #toggleDarkMode {
+    background-color: darkgrey;
+    color: white;
+}
+}
