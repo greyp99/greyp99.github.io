@@ -49,6 +49,31 @@ section {
 }
 
 
+
+    /* DARK MODE BUTTON */
+#toggleDarkMode {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+/* DARK MODE STYLES */
+body.darkMode {
+    background-color: #333;
+    color: white;
+}
+
+body.darkMode h1,
+body.darkMode h3,
+body.darkMode h4 {
+    color: white;
+}
+
+body.darkMode #rhodieTitle h1 {
+    color: lightgreen;
+
+
+}
 @media screen and (orientation: landscape) {
 
     #rhodiePic {
@@ -77,28 +102,4 @@ section {
     section {
         margin-bottom: 0;
     }
-    /* DARK MODE BUTTON */
-#toggleDarkMode {
-    position: fixed;
-    top: 1em;
-    right: 1em;
-}
-
-/* DARK MODE STYLES */
-body.darkMode {
-    background-color: #333;
-    color: white;
-}
-
-body.darkMode h1,
-body.darkMode h3,
-body.darkMode h4 {
-    color: white;
-}
-
-body.darkMode #rhodieTitle h1 {
-    color: lightgreen;
-
-
-}
 }
