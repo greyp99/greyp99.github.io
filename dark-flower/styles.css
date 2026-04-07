@@ -85,9 +85,6 @@ section {
     padding: 0.5em 1em;
     background-color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 1000;
 }
 
 /* DARK MODE STYLES */
