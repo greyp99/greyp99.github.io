@@ -102,8 +102,4 @@ body.darkMode h4 {
     color: white;
 }
 
-body.darkMode #toggleDarkMode {
-    background-color: black;
-    color: white;
-}
 }
