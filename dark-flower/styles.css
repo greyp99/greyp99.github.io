@@ -63,12 +63,6 @@ body.darkMode {
     color: white;
 }
 
-body.darkMode h1,
-body.darkMode h3,
-body.darkMode h4 {
-    color: white;
-}
-
 body.darkMode #rhodieTitle h1 {
     color: lightgreen;
 
