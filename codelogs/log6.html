@@ -60,78 +60,24 @@
     <p>MDN Stands out as the most reliable and detailed resource, although it may be difficult for beginners.</p>
     <p>GeeksforGeeks It is useful for learning by seeing how code actually works.</p>
     <p>W3Schools is helpful for quick learning, but it's more basic compared to the other resource but more beginner friendly</p>
-    <textarea cols="43" rows="4">
-p {
-  color: blue;
+    <h2>Example Code</h2>
+    <textarea cols="43" rows="6">
+/*Turning inline into block*/
+span {
+  display: block;
 }
-    </textarea>
-    <p>This makes the entire paragraph text blue.</p>
-    <hr>
-    <h3>2. background-color</h3>
-    <p>The background-color element makes the background color behind an element.</p>
-    <textarea cols="43" rows="4">
+
+/*Turning block into inline*/
 div {
-  background-color: lightgray;
+  display: inline;
 }
-	</textarea>
-    <p>Makes the div a light grey background.</p>
-    <hr>
-    <h3>3. border-color</h3>
-    <p>border-color changes the color of an element's border. You should already have border, using border-width and
-        border-style, in order to see the color.</p>
-    <textarea cols="43" rows="5">
-.box {
-  border: 2px solid black;
-  border-color: red;
+
+/*Flex container example*/
+.container {
+  display: flex;
+  gap: 10px;
 }
     </textarea>
-    <p>Makes a border around elements with the class ".box"</p>
-    <hr>
-    <h2>How CSS Accepts Color Values</h2>
-    <h3>1. Color Names</h3>
-    <p>These are colors that are already defined, like red, blue, purple, yellow, and orange.</p>
-    <textarea cols="43" rows="4">
-h1 {
-  color: green;
-}
-    </textarea>
-    <hr>
-    <h3>2. Hexadecimal Colors</h3>
-    <p>Hex colors start with a # followed by six digits. The digits represent red, green, and blue values.</p>
-    <textarea cols="43" rows="4">
-p {
-  color: #FF5733;
-}
-    </textarea>
-    <p>#FF5733 is a redish orange.</p>
-    <hr>
-    <h3>3. RGB Colors</h3>
-    <p>RGB stands for Red, Green, and Blue. Each value ranges from 0 to 255.</p>
-    <textarea cols="43" rows="4">
-div {
-  background-color: rgb(0, 195, 255);
-}
-    </textarea>
-    <p>This makes a light blue background.</p>
-    <hr>
-    <h3>4. RGBA and HSL</h3>
-    <p>RGBA adds transparency (alpha value from 0 to 1), 0 being completely transparent and 1 not being transparent.</p>
-    <textarea cols="43" rows="4">
-p {
-  color: rgba(255, 0, 0, 0.5);
-}
-    </textarea>
-    <p>This makes semi-transparent red text.</p>
-    <hr>
-    <p>HSL stands for Hue, Saturation, and Lightness, making it easier to adjust brightness and intensity.</p>
-    <textarea cols="43" rows="4">
-h2 {
-  color: hsl(200, 100%, 50%);
-}
-    </textarea>
-    <hr>
-    <p>CSS accepts many color formats including named colors, hexadecimal values, RGB, RGBA, and HSL. Understanding
-        these options gives developers flexibility and full-on creativity when designing web pages.</p>
 
 </body>
 
