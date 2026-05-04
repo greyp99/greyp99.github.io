@@ -5,7 +5,7 @@
     --nav-height: 3rem;
     --nav-bkgd-color: rgb(73, 32, 4);
     --nav-text-color: white;
-    --nav-hover-bkgd-color: rgb(167, 119, 97);
+    --nav-hover-bkgd-color: rgb(235, 216, 216);
     --nav-hover-text-color: black;
 }
 
@@ -17,6 +17,7 @@
 body {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
+    background-color: rgb(240, 192, 178);
 }
 
 
