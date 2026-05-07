@@ -185,13 +185,11 @@ main li {
         content: "";
     }
     /*Buttons in every page*/
-    .buttonpress {
-        display: flex;
-        justify-content: space-between;
+   .buttonpress {
         align-items: center;
-
-        margin-top: 1rem;
-        padding: 1rem 0;
+           text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
     }
 
     .button {
@@ -208,9 +206,4 @@ main li {
         background-color: rgb(192, 174, 174);
         color: rgb(73, 32, 4);
     }
-  .buttonpress {
-    text-align: center;
-    margin-top: 1rem;
-    padding: 1rem;
-}
 }
