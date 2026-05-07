@@ -185,7 +185,7 @@ main li {
         content: "";
     }
     /*Buttons in every page*/
-    .button-bar {
+    .buttonpress {
         display: flex;
         justify-content: space-between;
         align-items: center;
