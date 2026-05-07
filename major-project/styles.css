@@ -208,4 +208,10 @@ main li {
         background-color: rgb(192, 174, 174);
         color: rgb(73, 32, 4);
     }
+    .buttonpress {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
 }
