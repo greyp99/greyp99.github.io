@@ -150,80 +150,27 @@ nav > ul > li > ul > li:hover a {
     nav > ul > li > a::after {
         content: "";
     }
-header {
-    width: 100vw;
-    height: calc(100vh - var(--nav-height));
-    position: relative;
-}
-
-#cakePic {
-    position: absolute;
-    width: 100vw;
-    height: calc(100vh - var(--nav-height));
-    background-image: url("cake.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-#cakeTitle {
-    position: absolute;
-    width: 100vw;
-    height: calc(100vh - var(--nav-height));
-}
-
-#cakeTitle h1 {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    color: white;
-    font-size: 2.5em;
-    width: calc(100vw - 2em);
-    text-shadow: 2px 2px 5px black;
-}
-
 main {
-    padding: 1.5em;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
 }
 
-section {
-    margin-bottom: 2em;
+main img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 10px;
 }
 
-.startButton {
-    display: inline-block;
-    background-color: rgb(73, 32, 4);
-    color: white;
-    padding: 0.8em 1em;
-    text-decoration: none;
-    border-radius: 8px;
+main p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
-.startButton:hover {
-    background-color: rgb(167, 119, 97);
-    color: black;
-}
-
-@media screen and (orientation: landscape) {
-    #cakePic {
-        width: 50vw;
-    }
-
-    #cakeTitle {
-        width: 50vw;
-        left: 50vw;
-        background-color: rgb(73, 32, 4);
-    }
-
-    #cakeTitle h1 {
-        width: 45vw;
-    }
-
-    main {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2em;
-    }
+main h1, main h2 {
+    color: rgb(73, 32, 4);
 }
 }
