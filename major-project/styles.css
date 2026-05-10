@@ -256,4 +256,15 @@ main li {
         background-color: rgb(192, 174, 174);
         color: rgb(73, 32, 4);
     }
+    /*centers the ordered list numbers in the sources page*/
+    main ol {
+    display: inline-block;
+    text-align: left;
+    padding-left: 1.5rem;
+    margin: 0 auto 1.5rem auto;
+}
+
+main ol li {
+    margin-bottom: 0.5rem;
+}
 }
