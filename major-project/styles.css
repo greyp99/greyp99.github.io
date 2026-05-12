@@ -167,24 +167,6 @@ main li {
     color: rgb(73, 32, 4);
 }
 
-/*mobile layout for pages with 2 images*/
-
-.img-columns img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.img-columns p {
-    width: 70%;
-    font-size: 0.9rem;
-    color: #666;
-    text-align: center;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-}
-
-
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
@@ -235,9 +217,9 @@ main li {
 
     /*Buttons in every page*/
    .buttonpress {
-       justify-content: space-between;
-        align-items: center;
-           text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     margin-top: 1rem;
     padding: 1rem 0;
     }
