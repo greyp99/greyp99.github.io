@@ -50,30 +50,30 @@ section > .content > p {
     padding: 0.5rem 0;
 }
 
-/* navigation controls */
-section > .controls {
+/* navigation control*/
+section > .button {
     position: absolute;
     width: 42vw;
     right: 4vw;
     padding: 1rem; 
 }
 
-section > .controls.goNext {
+section > .button.goNext {
     bottom: 2vh;
 }
 
-section > .controls.goPrevious {
+section > .button.goPrevious {
     top: 2vh;
 }
 
-section > .controls > a {
+section > .button > a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
     color: #00FF00;
 }
 
-section > .controls > a:hover {
+section > .button > a:hover {
     color: #fff;
 }
 
