@@ -1,0 +1,99 @@
+/* Matrix Vertical Scroll -- With Nav */
+
+/* load Matrix-style font */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* smooth scroll for hash links */
+    overflow: hidden; /* hides scrollbars, forcing nav usage */
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Share Tech Mono", monospace;
+	color: #00FF00; /* Neon green */
+}
+
+/* remove default padding/margin from headings and paragraphs */
+h1, h2, p {
+	padding: 0;
+	margin: 0;
+}
+
+/* main container: 5 sections of 100vh each, total 500vh */
+main {
+    height: 500vh;
+    background-image: url("../images/image(3).png"); /* your single tall image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/* all sections full-screen height */
+section {
+    position: relative;
+    height: 100vh;
+}
+
+/* content divs positioned on right, like Empire example */
+section > .content {
+    position: absolute;
+    width: 42vw;
+    top: 20vh;
+    right: 4vw;
+}
+
+/* paragraph tags */
+section > .content > p {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+/* navigation controls */
+section > .controls {
+    position: absolute;
+    width: 42vw;
+    right: 4vw;
+    padding: 1rem; 
+}
+
+section > .controls.goNext {
+    bottom: 2vh;
+}
+
+section > .controls.goPrevious {
+    top: 2vh;
+}
+
+section > .controls > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #00FF00;
+}
+
+section > .controls > a:hover {
+    color: #fff;
+}
+
+/* h1 styling for first section */
+#section1 p,
+#section1 h1 {
+    text-transform: uppercase;
+}
+
+#section1 h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+    margin-left: -0.4rem;
+    padding-left: 1rem;
+}
+
+/* h2 styling for other sections */
+h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
