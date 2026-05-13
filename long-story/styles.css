@@ -97,3 +97,27 @@ h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
+/* violet blue type deal */
+#section1 .content {
+    color: #5863ff; /* just to not mess up the color value too much */
+}
+
+/* white */
+#section2 .content {
+    color: #ffffff;
+}
+
+/* green for zion */
+#section3 .content {
+    color: #53f860;
+}
+
+/* mechanical world */
+#section4 .content {
+    color: #8166ac;
+}
+
+/* for the red pill/real world */
+#section5 .content {
+    color: #e01212;
+}
