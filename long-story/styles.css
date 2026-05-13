@@ -14,7 +14,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	font-family: "Share Tech Mono", monospace;
-	color: #00FF00; /* Neon green */
+	color: #52d852
 }
 
 /* remove default padding/margin from headings and paragraphs */
@@ -26,7 +26,7 @@ h1, h2, p {
 /* main container: 5 sections of 100vh each, total 500vh */
 main {
     height: 500vh;
-    background-image: url("../images/image(3).png"); /* your single tall image */
+    background-image: url("matrix.png"); /* your single tall image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
