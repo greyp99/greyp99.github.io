@@ -38,8 +38,8 @@ section {
 /* content divs positioned on right, like Empire example */
 section > .content {
     position: absolute;
-    width: 42vw;
-    top: 20vh;
+    width: 54vw;
+    top: 30vh;
     right: 4vw;
 }
 
@@ -52,8 +52,8 @@ section > .content > p {
 /* navigation control*/
 section > .button {
     position: absolute;
-    width: 42vw;
-    right: 4vw;
+    width: 43vw;
+    right: 5vw;
     padding: 1rem; 
 }
 
